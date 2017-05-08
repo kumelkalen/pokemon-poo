@@ -5,4 +5,7 @@ function Pokemon(nombre, color, ataque, vida) {
     this.vida = vida;
     this.ataque = ataque;
 
+    this.presentarPokemon = function() {
+        return ('Hola ^-^!!, soy:' + this.nombre + ' y  soy de color: ' + this.color);
+    }
 }
