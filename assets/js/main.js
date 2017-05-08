@@ -12,4 +12,8 @@ function Pokemon(nombre, color, ataque, vida) {
     this.aumentarAmistad = function(valor) {
         this.amistad += valor
     }
+
+    this.atacar = function(pokemon) {
+        pokemon.vida -= this.ataque
+    }
 }
